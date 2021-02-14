@@ -1,0 +1,280 @@
+<!doctybe html>
+<html>
+    <head>
+        <title>TP 1 </title>
+        <meta charset="utf-8">
+        <STYle>
+          styl.css
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;  
+}
+header{
+    height: 100px;
+    background: #262626;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: bignoodletitling;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.banner-area{
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    background-image:url(media/bac3.jpg);
+}
+.banner-area h2{
+    padding-top: 6%;
+    font-size: 70px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color:rgb(14, 12, 12);
+}
+.content-area{
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background: #ddd;
+   /* height: 1500px;*/
+}.content-area h2{
+    font-family: bignoodletitling;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+
+}
+.content-area p{
+    padding: 2% 0;
+    font-family: merienda;
+    line-height: 30px;
+}
+
+/* Style de MENU*/
+ nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+      overflow: hidden;
+      
+       }
+
+
+        nav ul li {
+          float:right;
+          margin: 0 0px 0 15px;
+
+        }
+
+         nav ul li a {
+          display: block;
+          color: white;
+          font-size: 25px;
+          font-family: "bignoodletitling";
+          text-align: center;
+          padding: 33px;
+          text-decoration: none;
+
+        }
+
+        nav ul li a:hover {
+          background-color: #111111;
+           box-shadow: 0px 0px 5px #111111;
+          border: 2px solid #111111;
+          border-radius: 20%;
+        }
+
+        nav{
+           margin-top: 0px;
+        }
+
+        .dero .sous {
+
+          display: none;
+          position: absolute;
+          background-color: #262626;
+        }
+        .dero li:hover>ul{
+          display: block;
+        }
+
+        .dero ul li ul li{
+          display: block;
+
+        }
+
+        .sous{
+          width: 140px;
+          height: 480px;
+        }
+
+        .sous a {
+          padding: 15px;
+          margin: 0 40px 0 0px;
+
+          
+
+          /*border-bottom: none;*/
+        }
+
+        .dero > a::after{
+          font-size: 10px;
+          
+        }
+
+        .tp > a::after{
+          content: " ▼";
+          font-size: 13px;
+
+        }
+
+/*FIN*/
+
+#pw,#sd{
+    text-align: left;
+   
+}
+
+.tp1,.tp2,.tp3,.tp4,.tp5,.tp6,.tp7,.tp8{
+  text-align: left;
+  
+}
+
+a:hover 
+{
+ font-weight: bold;
+ color :#e69900; 
+}
+
+table ,tr,th,td{
+
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+  footer{
+    font-family: bignoodletitling;
+    font-size: 20px; 
+    font-weight: bold;
+  }
+
+.foot{
+  margin-top: 70px;
+  height: 80px;
+  color: #005580;
+}
+
+
+
+
+
+        </STYle>
+
+    </head>
+    <body>
+        <div class="bux-area">
+            <header>
+                <div class="wrapper">
+                    <div class="logo">
+                        <a href="#">HTML ET CSS</a>
+                    </div>
+						  <nav  class="dero">
+							<ul >
+								<li class="tp"> <a href="" >TP&nbsp;</a>
+									<ul class="sous">
+										<li> <a href="tp1.html">TP 1</a></li>
+                    <li> <a href="tp2.html">TP 2</a></li>
+                    <li> <a href="tp3.html">TP 3</a></li>
+                    <li> <a href="tp4.html">TP 4</a></li>
+                    <li> <a href="tp5.html">TP 5</a></li>
+                    <li> <a href="tp6.html">TP 6</a></li>
+                    <li> <a href="tp7.html">TP 7</a></li>
+                    <li> <a href="tp8.html">TP 8</a></li>
+                  </ul>
+								</li>
+								<li> <a href="../css.html">CSS</a></li>
+								<li> <a href="../html.html">HTML</a></li>
+								<li> <a href="../index.html">Accueil</a></li>
+							</ul>
+						</nav>
+                </div>
+            </header>
+          </div>
+            <div class="banner-area">
+                <h2>TP 1</h2>
+                </div>
+                    <div class="content-area">
+                        <div class="wrapper">
+                         
+                   <section class="tp1" >
+                    <br>
+                      <h1>Outils de développement</h1>
+                    Bienvenue dans la programation HTML
+                    <p>Pour apprendre le langage HTML, on a besoin d'un éditeur de texte et d'un navigateur web</p>
+                    <h2>éditeur de texte : </h2>
+                    <p>Certains éditeur sont préinstallés comme Bloc-notes. D'autre sont téléchargeables suivant votre plateforme d'utilisation et proposent des fonctionnalités plus évoluées,
+                    en particulier la "coloration syntaxique" </p>
+                    <hr>
+                    <p>Formation HTML : ibrsoft@gmail.com </p>
+
+                    <h1 style="color: blue; font-size: 60px;  text-align: center;">Outils de développement</h1>
+                    <p style="margin: 0 100px 0 100px; font-size: 1.5em;">Pour apprendre le langage HTML, on a besoin d'un éditeur de texte et d'un navigateur web</p>
+                    <h2>éditeur de texte : </h2>
+                    <p>Certains éditeur sont préinstallés comme Bloc-notes. D'autre sont téléchargeables suivant votre plateforme d'utilisation et proposent des fonctionnalités plus évoluées,
+                    en particulier la "coloration syntaxique" </p>
+                    <hr>
+                    <p style="color: red;" onclick ="alter('pour m\'envoyer un courrier');">Formation HTML : ibrsoft@gmail.com </p>
+
+                      <h1>Exemple 1 : </h1>
+                      <p> un             paragraphe</p>
+                      <p> un 
+                      autre
+                      paragraphe</P>
+                      <p>encore un autre paragraphe </p>
+                      <h1>Exemple 2 :</h1>
+                      <p> un paragraphe <br> avec <br> des sauts de ligne.</p>
+                      <h1>Exemple 1 :</h1>
+                      <h1>Section 1 : </h1>
+                      <p>contenu de la section 1</p>
+                      <hr>
+                      <h1>Section 2 : </h1>
+                      <p>contenu de la section 2</p>
+                      <hr>
+
+                      <h1>La faculté des&nbsp;sciences de l'éducation &lt;FSE - Rabat&gt;</h1>
+                      <p>
+                      Depuis sa création, la FSE de l'univesité Mohammed V de Rabat assure des formations de courtes et moyennes durées dans les domaines ayant un lien avec les sciences de l'éducation. Elle organise également des sessions d'enseignement des langues arabes et francais pour les étudient étrangers.
+                      "La FSE a pour mission de dispenser l'enseignement supérieur en formation initiale et en formation continue et de mener tous travaux de recherche dans champ disciplinaire relevant de sciences de l'éducationdes langues et de communication."
+                      </p>
+                    </section>
+                     <footer class="foot">fse.tice 2021 copyright</footer>
+
+                   
+
+        </div>
+      </div>
+        
+    </body>
+
+</html>
